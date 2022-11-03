@@ -1,0 +1,10 @@
+<!ELEMENT informe_de_ventas (cabecera,datos)>
+<!ELEMENT cabecera (descripcion,fecha)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT datos (region, region, region)>
+<!ATTLIST region id (Norte|Centro|Sur) #REQUIRED>
+<!ELEMENT region (trimestre, trimestre, trimestre, trimestre)>
+<!ATTLIST trimestre numero (1|2|3|4) #REQUIRED>
+<!ELEMENT trimestre (libros_vendidos)>
+<!ELEMENT libros_vendidos (#PCDATA)>

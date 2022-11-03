@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE partidos_BBVA_MX SYSTEM "partidos.dtd">
+<partidos_BBVA_MX>
+    <partido>
+        <informacion>
+            <estadio>Estadio Jalisco</estadio>
+            <fecha>2 de Noviembre, 2022</fecha>
+            <hora>6:00 PM</hora>
+            <lugar>Guadalajara, México</lugar>
+        </informacion>
+        <equipo>
+            <nombre>UDG</nombre>
+            <racha>GPGPG</racha>
+        </equipo>
+        <equipo>
+            <nombre>ATL</nombre>
+            <racha>GGGPE</racha>
+        </equipo>
+    </partido>
+    <partido>
+        <informacion>
+            <estadio>Héroe de Nacozari</estadio>
+            <fecha>2 de Noviembre, 2022</fecha>
+            <hora>8:05 PM</hora>
+            <lugar>Hermosillo</lugar>
+        </informacion>
+        <equipo>
+            <nombre>CDS</nombre>
+            <racha>GPEGG</racha>
+        </equipo>
+        <equipo>
+            <nombre>CEL</nombre>
+            <racha>GGPGG</racha>
+        </equipo>
+    </partido>
+</partidos_BBVA_MX>

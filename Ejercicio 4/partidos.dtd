@@ -1,0 +1,10 @@
+<!ELEMENT partidos_BBVA_MX (partido+)>
+<!ELEMENT partido (informacion,equipo,equipo)>
+<!ELEMENT informacion (estadio,fecha,hora,lugar)>
+<!ELEMENT estadio (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT hora (#PCDATA)>
+<!ELEMENT lugar (#PCDATA)>
+<!ELEMENT equipo (nombre,racha)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT racha (#PCDATA)>

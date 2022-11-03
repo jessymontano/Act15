@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE informe_de_ventas SYSTEM "informe.dtd">
+<informe_de_ventas>
+    <cabecera>
+        <descripcion>
+            Informe de ventas para las regiones Norte, Centro y Sur
+        </descripcion>
+        <fecha>30/09/2021</fecha>
+    </cabecera>
+    <datos>
+        <region id="Norte">
+            <trimestre numero="1">
+                <libros_vendidos>24000</libros_vendidos>
+            </trimestre>
+            <trimestre numero="2">
+                <libros_vendidos>38600</libros_vendidos>
+            </trimestre>
+            <trimestre numero="3">
+                <libros_vendidos>NO_INFO</libros_vendidos>
+            </trimestre>
+            <trimestre numero="4">
+                <libros_vendidos>NO_INFO</libros_vendidos>
+            </trimestre>
+        </region>
+        <region id="Centro">
+            <trimestre numero="1">
+                <libros_vendidos>NO_INFO</libros_vendidos>
+            </trimestre>
+            <trimestre numero="2">
+                <libros_vendidos>16080</libros_vendidos>
+            </trimestre>
+            <trimestre numero="3">
+                <libros_vendidos>25000</libros_vendidos>
+            </trimestre>
+            <trimestre numero="4">
+                <libros_vendidos>29000</libros_vendidos>
+            </trimestre>
+        </region>
+        <region id="Sur">
+            <trimestre numero="1">
+                <libros_vendidos>27000</libros_vendidos>
+            </trimestre>
+            <trimestre numero="2">
+                <libros_vendidos>31400</libros_vendidos>
+            </trimestre>
+            <trimestre numero="3">
+                <libros_vendidos>40100</libros_vendidos>
+            </trimestre>
+            <trimestre numero="4">
+                <libros_vendidos>30000</libros_vendidos>
+            </trimestre>
+        </region>
+    </datos>
+</informe_de_ventas>
